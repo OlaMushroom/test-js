@@ -7,7 +7,7 @@
     "include": [
       "README.md",
       "package.json",
-      "src/**/*.ts"
+      "src/**/*.?s"
     ]
   }
 }
