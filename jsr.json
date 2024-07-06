@@ -1,9 +1,12 @@
 {
   "$schema": "https://jsr.io/schema/config-file.v1.json",
   "name": "@om/test",
-  "version": "1.0.1",
-  "imports": {
-    "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9"
-  },
-  "exports": "./src/index.ts"
+  "version": "1.0.2",
+  "exports": "./src/index.ts",
+  "publish": {
+    "include": [
+      "README.md",
+      "./src/**/*.ts"
+    ]
+  }
 }
