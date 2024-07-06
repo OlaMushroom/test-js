@@ -1,12 +1,11 @@
 {
   "$schema": "https://jsr.io/schema/config-file.v1.json",
   "name": "@om/test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "exports": "./src/mod.ts",
   "publish": {
     "include": [
       "README.md",
-      "package.json",
       "src/**/*.ts"
     ]
   }
