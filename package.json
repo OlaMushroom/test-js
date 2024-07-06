@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "type": "module",
+  "module": "./src/index.ts",
+  "dependencies": {
+    "@om/nekos-moe": "npm:@jsr/om__nekos-moe"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
