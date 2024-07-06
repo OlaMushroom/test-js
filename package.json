@@ -3,7 +3,7 @@
   "type": "module",
   "module": "./src/index.ts",
   "dependencies": {
-    "@om/nekos-moe": "npm:@jsr/om__nekos-moe"
+    "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9"
   },
   "devDependencies": {
     "@types/bun": "latest"
