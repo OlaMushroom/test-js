@@ -1,14 +1,20 @@
 {
   "name": "test",
-  "type": "module",
-  "module": "./src/index.ts",
+  "version": "1.0.0",
+  "description": "abc",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OlaMushroom",
+  "license": "ISC",
   "dependencies": {
     "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9"
   },
   "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
+    "@types/node": "^20.14.10",
+    "tslib": "^2.6.3",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.3"
   }
 }
