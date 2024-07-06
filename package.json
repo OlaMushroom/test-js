@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "test-pkg",
   "version": "1.0.0",
   "description": "abc",
   "main": "src/index.ts",
@@ -8,8 +8,10 @@
   },
   "author": "OlaMushroom",
   "license": "ISC",
+  "dependencies": {
+    "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9"
+  },
   "devDependencies": {
-    "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9",
     "@types/node": "^20.14.10",
     "tslib": "^2.6.3",
     "tsx": "^4.16.2",
