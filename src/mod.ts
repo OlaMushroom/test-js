@@ -6,7 +6,7 @@
  */
 
 import * as local from '@om/nekos-moe';
-import { cdn } from './import.js';
+//import { cdn } from './import.js';
 
 /**
  */
@@ -16,6 +16,8 @@ export function pkgLocal(): void {
 
 /**
  */
+/*
 export function pkgCdn(): void {
 	console.log('CDN:\n%o', cdn.info);
 }
+*/
