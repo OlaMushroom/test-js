@@ -6,8 +6,8 @@
   "publish": {
     "include": [
       "README.md",
-      "src/**/*.ts",
-      "src/**/*.js"
+      "package.json",
+      "src/**/*.ts"
     ]
   }
 }
