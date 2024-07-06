@@ -1,19 +1,17 @@
 {
   "name": "test-pkg",
-  "version": "1.0.0",
-  "description": "abc",
-  "main": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "test",
   "author": "OlaMushroom",
   "license": "ISC",
+  "version": "1.0.0",
+  "main": "src/index.ts",
   "dependencies": {
     "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.9"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
     "esno": "^4.7.0",
+    "ts-node": "^10.9.2",
     "tslib": "^2.6.3",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
