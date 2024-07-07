@@ -21,4 +21,3 @@ export function pkgLocal(): void {
 export function pkgCdn(): void {
 	console.log('CDN:\n%o', cdn.info);
 }
-
