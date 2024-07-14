@@ -3,8 +3,8 @@
   "type": "module",
   "module": "index.ts",
   "dependencies": {
-    "@om/nekos-moe": "npm:@jsr/om__nekos-moe@^0.5.12",
     "@reejs/imports": "^2.12.1",
+    "nekos-moe": "^0.6.2",
     "reejs": "^0.20.1"
   },
   "devDependencies": {
