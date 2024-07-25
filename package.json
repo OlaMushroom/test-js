@@ -13,7 +13,6 @@
     "src"
   ],
   "dependencies": {
-    "@om/nekos-moe": "npm:@jsr/om__nekos-moe",
     "@reejs/imports": "^2.12.1",
     "nekos-moe": "^0.6.4",
     "reejs": "^0.20.1"
