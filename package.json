@@ -1,20 +1,21 @@
 {
   "name": "@om-test/pkg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/OlaMushroom/test-js.git"
   },
   "type": "module",
-  "module": "index.ts",
+  "exports": "./src/mod.ts",
   "main": "index.ts",
+  "module": "index.ts",
   "files": [
     "src"
   ],
-  "exports": "./src/mod.ts",
   "dependencies": {
+    "@om/nekos-moe": "npm:@jsr/om__nekos-moe",
     "@reejs/imports": "^2.12.1",
-    "nekos-moe": "^0.6.2",
+    "nekos-moe": "^0.6.4",
     "reejs": "^0.20.1"
   },
   "devDependencies": {
